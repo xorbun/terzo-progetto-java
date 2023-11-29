@@ -7,7 +7,7 @@ public class Articolo
         int ArticoloIc;
         public String descrizione;
 
-        double prezzo;
+        public double prezzo;
 
         public Articolo()
         {

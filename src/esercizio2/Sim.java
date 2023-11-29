@@ -26,8 +26,6 @@ public class Sim
            System.out.println(lista[i].tempo);
        }
    }
-
-
     public  Sim(int numero)
     {
         this.lista= new Chiamata[5];
@@ -37,8 +35,6 @@ public class Sim
         this.lista[2]=new Chiamata(45.00,"2132133222");
         this.lista[3]=new Chiamata(8.43,"234382034");
         this.lista[4]=new Chiamata(5.12,"438438430");
-
-
     }
 
 }

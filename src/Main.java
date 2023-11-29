@@ -3,7 +3,7 @@ import esercizio2.Sim;
 import esercizio3.Carrello;
 import esercizio3.Cliente;
 import esercizio3.Articolo;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Main
@@ -42,12 +42,11 @@ public class Main
             {
                 Cliente utente=new Cliente();
                 Articolo prodotto=new Articolo();
-                Carrello paga=new Carrello(utente.nome,prodotto.descrizione);
-                System.out.println(paga.getTotale());
+                Carrello paga=new Carrello(utente.nome,prodotto.descrizione, prodotto.prezzo);
+                System.out.println("il totale della spesa è");
+                paga.totale();
                 break;
             }
         }
-
-
     }
 }
